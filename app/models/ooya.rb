@@ -1,0 +1,2 @@
+class Ooya < ApplicationRecord
+end

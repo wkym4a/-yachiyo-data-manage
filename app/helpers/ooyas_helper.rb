@@ -1,0 +1,2 @@
+module OoyasHelper
+end
