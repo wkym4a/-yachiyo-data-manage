@@ -12,6 +12,19 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
+#bootstrap用に追記
+gem 'bootstrap', '~> 4.1.1'
+gem 'jquery-rails'
+
+# 環境ファイル「.env」を管理するために追加
+gem 'dotenv-rails'
+
+#フォントによるエラー対策のため追記
+gem 'font-awesome-rails'
+
+#enum用
+gem 'enum_help'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 
